@@ -96,13 +96,42 @@ Epistemic status is at least contested, often fictional, usually indicated. View
         <div class="container">
           <footer class="footer">
             
- <a href="https://mailhide.io/e/eDjrM9ws" onclick="popup=window.open('https://mailhide.io/e/eDjrM9ws','mailhidepopup','width=580,height=635'); return false;"><i class="svg-icon email"></i></a>
-<a href="https://www.twitter.com/sschuldenzucker"><i class="svg-icon twitter"></i></a>
-<a href="https://www.linkedin.com/in/steffen-schuldenzucker-77b04027"><i class="svg-icon linkedin"></i></a>
-<a href="https://www.facebook.com/profile.php?id=100012280149776"><i class="svg-icon facebook"></i></a>
+<a class="svg-icon"
+  
+  onclick="popup=window.open('{{ site.footer-links.email-scrambled }}','mailhidepopup','width=580,height=635'); return false;"
+><img src="/img/email.svg"></a>
 
 
-<a href="https://github.com/sschuldenzucker"><i class="svg-icon github"></i></a>
+<a class="svg-icon"
+  href="{{site.footer-links.mastodon}}"
+  
+><img src="/img/mastodon.svg"></a>
+
+
+<a class="svg-icon"
+  href="https://www.twitter.com/{{ site.footer-links.twitter }}"
+  
+><img src="/img/twitter.svg"></a>
+
+
+<a class="svg-icon"
+  href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}"
+  
+><img src="/img/linkedin.svg"></a>
+
+
+<a class="svg-icon"
+  href="https://www.facebook.com/{{ site.footer-links.facebook }}"
+  
+><img src="/img/facebook.svg"></a>
+
+
+
+
+<a class="svg-icon"
+  href="https://github.com/{{ site.footer-links.github }}"
+  
+><img src="/img/github.svg"></a>
 
 
 
